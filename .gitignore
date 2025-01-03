@@ -66,6 +66,7 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+*.gz
 
 # Yarn Integrity file
 .yarn-integrity
@@ -111,3 +112,9 @@ Web3ModalSetup
 .vercel
 
 certificates
+
+.yarn/
+.yarn/cache/
+.yarn/install-state.gz
+
+yarn.lock
